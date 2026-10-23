@@ -1,0 +1,9 @@
+# папки сборки
+build/
+out/
+cmake-build-*/
+.vs/
+
+# собранные файлы
+*.exe
+*.obj.tmp

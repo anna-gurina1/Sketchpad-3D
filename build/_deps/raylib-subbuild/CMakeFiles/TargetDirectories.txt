@@ -1,3 +1,3 @@
-C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
-C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/ZERO_CHECK.dir
+C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.dir
+C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/edit_cache.dir
+C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/rebuild_cache.dir

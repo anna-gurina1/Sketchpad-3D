@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-src")
-  file(MAKE_DIRECTORY "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-src")
+if(NOT EXISTS "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-src")
+  file(MAKE_DIRECTORY "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-src")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-build"
-  "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate-prefix"
-  "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp"
-  "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
-  "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src"
-  "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
+  "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-build"
+  "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix"
+  "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp"
+  "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
+  "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src"
+  "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp"
 )
 
-set(configSubDirs Debug)
+set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

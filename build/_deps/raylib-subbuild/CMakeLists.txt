@@ -27,9 +27,9 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(raylib-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/raysan5/raylib.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "5.5"
-                    SOURCE_DIR          "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-src"
-                    BINARY_DIR          "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/raysan5/raylib.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "5.5" "GIT_SHALLOW" "TRUE"
+                    SOURCE_DIR          "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-src"
+                    BINARY_DIR          "C:/MyPrograms/Sketchpad3D/build/_deps/raylib-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
