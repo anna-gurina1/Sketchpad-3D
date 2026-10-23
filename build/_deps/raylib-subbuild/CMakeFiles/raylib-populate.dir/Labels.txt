@@ -1,0 +1,14 @@
+# Target labels
+ raylib-populate
+# Source files and their labels
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/27e7da4de7ef390c60f9a01bbfd032f8/raylib-populate.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/16d01fb06b9d748059819b55d9fafa6b/raylib-populate-complete.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-build.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-configure.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-download.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-install.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-mkdir.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-patch.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-test.rule
+C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/CMakeFiles/6e1f2910986253bade77c63818ec6668/raylib-populate-update.rule

@@ -1,0 +1,10 @@
+^C:\USERS\LYUDM.ANNA_GURINA\ONEDRIVE\ДОКУМЕНТЫ\PROJECTS\КУРСОВАЯ РАБОТА\SKETCHPAD3D\SKETCHPAD-3D\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\27E7DA4DE7EF390C60F9A01BBFD032F8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild" "-BC:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Lyudm.ANNA_GURINA/OneDrive/Документы/projects/Курсовая работа/Sketchpad3D/Sketchpad-3D/build/_deps/raylib-subbuild/raylib-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
