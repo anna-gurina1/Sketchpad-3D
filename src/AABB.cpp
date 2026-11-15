@@ -23,3 +23,11 @@ AABB ComputeAABB(const float* vertices, int vertexCount, Vector3 position, Vecto
     }
     return box;
 }
+
+AABB AABB::Merge(const AABB& a, const AABB& b)
+{
+    AABB r;
+    r.min = { std::min(a.min.x, b.min.x), std::min(a.min.y, b.min.y), std::min(a.min.z, b.min.z) };
+    r.max = { std::max(a.max.x, b.max.x), std::max(a.max.y, b.max.y), std::max(a.max.z, b.max.z) };
+    return r;
+}
