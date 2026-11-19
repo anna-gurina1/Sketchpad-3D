@@ -1,14 +1,14 @@
 # Target labels
  raylib-populate
 # Source files and their labels
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
-C:/MyPrograms/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
+C:/Code/Sketchpad3D/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule

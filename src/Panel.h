@@ -5,6 +5,7 @@
 #include "Renderer.h"
 #include "Scene.h"
 #include "CollisionDetector.h"
+#include "Theme.h"
 
 // Что показать на панели справа
 struct PanelState {
@@ -29,10 +30,18 @@ struct PanelActions {
 
 class Panel {
 public:
-    float width = 360.0f;
+    float width = theme.panelWidth;
     Rectangle Area() const;          // прямоугольник панели на экране
-    PanelActions Draw(const Renderer& r, const PanelState& s) const;
+    PanelActions Draw(const Renderer& r, const PanelState& s);
 
 private:
     bool Button(const Renderer& r, Rectangle rc, const std::string& label, bool active) const;
+
+    // раскрывающийся список коллизий с прокруткой; возвращает y под списком
+    float DrawCollisionList(const Renderer& r, const PanelState& s, float x, float y, float w);
+    bool  listOpen = false;        // список раскрыт
+    float listScroll = 0.0f;       // насколько прокручен список, в пикселях
+    bool  draggingThumb = false;   // тянем ползунок мышью
+    float dragStartMouseY = 0.0f;
+    float dragStartScroll = 0.0f;
 };

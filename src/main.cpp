@@ -9,17 +9,20 @@
 #include "Panel.h"
 #include "OrbitCamera.h"
 #include "Tests.h"
+#include "Theme.h"
+#include "WindowStyle.h"
 #include "BruteForceDetector.h"
 
 int main()
 {
 #ifdef _WIN32
-    std::system("chcp 65001 > nul");   // русские буквыв консоли 
+    std::system("chcp 65001 > nul");   // русские буквы в консоли 
 #endif
     RunAllTests();
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE | FLAG_MSAA_4X_HINT | FLAG_VSYNC_HINT);
     InitWindow(1280, 720, "Sketchpad 3D");
+    ApplyTitleBarStyle(theme.titleBar, theme.titleText);   // тёмная полоса заголовка
     MaximizeWindow();
     SetTargetFPS(60);
 
@@ -107,7 +110,7 @@ int main()
         for (const auto& p : live) { colliding[p.a] = true; colliding[p.b] = true; }
 
         BeginDrawing();
-        ClearBackground({ 236, 239, 243, 255 });
+        ClearBackground(theme.backgroundBottom);
         renderer.DrawScene(scene, colliding, selected, cam);
 
         PanelState ps;

@@ -3,6 +3,7 @@
 #include <string>
 #include "raylib.h"
 #include "Scene.h"
+#include "Theme.h"
 
 // Отрисовка: 3D-сцена и текст. Все получает параметрами
 class Renderer {
